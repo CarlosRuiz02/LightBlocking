@@ -16,27 +16,22 @@ Este módulo fotointerruptor para Arduino (compatible con otros microcontrolador
 ## Diagrama
 ![](https://github.com/CarlosRuiz02/LightBlocking/blob/main/Light%20Blocking/Light%20blocking%20Diagrama.PNG)\
 
-**Nota: El sensor del diagrama es diferente pero la conexión es exactamente la misma**
-
+**Nota 1: El sensor del diagrama es diferente pero la conexión es exactamente la misma**
+**Nota 2: Cambiar el pin del LED al 5**
 ## Código
 ```c++
-int LedOutput = 5;// Define as LED Output Pin 5 
-int SensorPin = 15; // Define as Sensor Pin Input
+int LedOutput = 5;// Define as LED Output Pin 12 you can change this to 13 if you dont use pin 12 as output indicator
+int SensorPin = 12; // Define as Sensor Pin Input
 int Value;// Define as variable 
-void setup()
-{
+void setup(){
 pinMode(LedOutput,OUTPUT);//Set as LedOutput
 pinMode(SensorPin,INPUT);//Set as photo interrupter sensor output interface
 }
-void loop()
-{
+void loop(){
 Value=digitalRead(SensorPin);// Set as sensor read SensorPin 
-if(Value==HIGH) //If value is equal to HIGH estate then turn LED output = high
-{
+if(Value==HIGH){ //If value is equal to HIGH estate then turn LED output = high
 digitalWrite(LedOutput,HIGH); // Set LedOutPut to HIGH or ON
-}
-else
-{
+}else{
 digitalWrite(LedOutput,LOW); // Set LedOutPut to LOW or OFF
-}
+    }
 }

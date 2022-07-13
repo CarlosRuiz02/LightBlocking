@@ -3,22 +3,23 @@
 Este módulo fotointerruptor para Arduino (compatible con otros microcontroladores), activará una señal cuando se bloquee la luz entre la brecha del sensor. Consta de un emisor/detector óptico en la parte frontal y dos resistencias (1kΩ y 33Ω) en la parte posterior. El sensor utiliza un haz de luz entre el emisor y el detector para verificar si la ruta entre ambos está bloqueada por un objeto opaco. Útil en aplicaciones como interruptor de final de carrera entre otras.
 
 Hardware utilizado en este tutorial:
-
-*1 x ESP-WROOM-32 Dev Module*
-*1 x Micro USB Cable*
-*1 x Protoboard*
-*4 x Cables hembra*
-*2 x Cables macho*
+<ul>
+<li>1 x ESP-WROOM-32 Dev Module</li>
+<li>1 x Micro USB Cable</li>
+<li>1 x Protoboard</li>
+<li>4 x Cables hembra</li>
+<li>2 x Cables macho</li>
+</ul>
 
 ## Sensor
-![](https://github.com/CarlosRuiz02/LightBlocking/blob/main/Light%20Blocking/Light%20Blocking%20sensor.webp)
+![](https://github.com/CarlosRuiz02/LightBlocking/blob/main/Light%20Blocking/Light%20Blocking%20sensor.webp){width=100px height=200px}
 
 ## Diagrama
 ![](https://github.com/CarlosRuiz02/LightBlocking/blob/main/Light%20Blocking/Light%20blocking%20Diagrama.PNG)
 
 ## Código
 ```c++
-int LedOutput = 5;// Define as LED Output Pin 12 you can change this to 13 if you dont use pin 12 as output indicator
+int LedOutput = 5;// Define as LED Output Pin 5 
 int SensorPin = 15; // Define as Sensor Pin Input
 int Value;// Define as variable 
 void setup()
@@ -37,4 +38,4 @@ else
 {
 digitalWrite(LedOutput,LOW); // Set LedOutPut to LOW or OFF
 }
-}```
+}

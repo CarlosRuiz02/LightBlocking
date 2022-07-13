@@ -14,7 +14,9 @@ Este módulo fotointerruptor para Arduino (compatible con otros microcontrolador
 ## Sensor
 ![](https://github.com/CarlosRuiz02/LightBlocking/blob/main/Light%20Blocking/Light%20Blocking%20sensor.webp)
 ## Diagrama
-![](https://github.com/CarlosRuiz02/LightBlocking/blob/main/Light%20Blocking/Light%20blocking%20Diagrama.PNG)
+![](https://github.com/CarlosRuiz02/LightBlocking/blob/main/Light%20Blocking/Light%20blocking%20Diagrama.PNG)\
+
+**Nota: El sensor del diagrama es diferente pero la conexión es exactamente la misma**
 
 ## Código
 ```c++

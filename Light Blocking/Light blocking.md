@@ -2,7 +2,7 @@
 
 Este módulo fotointerruptor para Arduino (compatible con otros microcontroladores), activará una señal cuando se bloquee la luz entre la brecha del sensor. Consta de un emisor/detector óptico en la parte frontal y dos resistencias (1kΩ y 33Ω) en la parte posterior. El sensor utiliza un haz de luz entre el emisor y el detector para verificar si la ruta entre ambos está bloqueada por un objeto opaco. Útil en aplicaciones como interruptor de final de carrera entre otras.
 
-Hardware utilizado en este tutorial:
+### Hardware utilizado en este tutorial:
 <ul>
 <li>1 x ESP-WROOM-32 Dev Module</li>
 <li>1 x Micro USB Cable</li>

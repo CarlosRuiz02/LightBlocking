@@ -11,10 +11,10 @@ Hardware utilizado en este tutorial:
 *2 x Cables macho*
 
 ## Sensor
-![](https://github.com/CarlosRuiz02/LightBlocking/blob/main/Light%20Blocking/Light%20blocking%20Diagrama.PNG){width='100px'}
+![](https://github.com/CarlosRuiz02/LightBlocking/blob/main/Light%20Blocking/Light%20Blocking%20sensor.webp)
 
 ## Diagrama
-![](https://github.com/CarlosRuiz02/LightBlocking/blob/main/Light%20Blocking/Light%20blocking%20Diagrama.PNG){width='100px'}
+![](https://github.com/CarlosRuiz02/LightBlocking/blob/main/Light%20Blocking/Light%20blocking%20Diagrama.PNG)
 
 ## Código
 ```c++

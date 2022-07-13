@@ -12,8 +12,7 @@ Hardware utilizado en este tutorial:
 </ul>
 
 ## Sensor
-![](https://github.com/CarlosRuiz02/LightBlocking/blob/main/Light%20Blocking/Light%20Blocking%20sensor.webp){width=100px height=200px}
-
+![](https://github.com/CarlosRuiz02/LightBlocking/blob/main/Light%20Blocking/Light%20Blocking%20sensor.webp)
 ## Diagrama
 ![](https://github.com/CarlosRuiz02/LightBlocking/blob/main/Light%20Blocking/Light%20blocking%20Diagrama.PNG)
 

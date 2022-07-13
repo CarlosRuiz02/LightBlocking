@@ -4,16 +4,20 @@ Este módulo fotointerruptor para Arduino (compatible con otros microcontrolador
 
 Hardware utilizado en este tutorial:
 
-*1 x ESP-WROOM-32 Dev Module
-*1 x Micro USB Cable
-*1 x Protoboard
-*4 x Cables hembra
-*2 x Cables macho
+*1 x ESP-WROOM-32 Dev Module*
+*1 x Micro USB Cable*
+*1 x Protoboard*
+*4 x Cables hembra*
+*2 x Cables macho*
+
+## Sensor
+![](https://github.com/CarlosRuiz02/LightBlocking/blob/main/Light%20Blocking/Light%20blocking%20Diagrama.PNG){width='100px'}
 
 ## Diagrama
+![](https://github.com/CarlosRuiz02/LightBlocking/blob/main/Light%20Blocking/Light%20blocking%20Diagrama.PNG){width='100px'}
 
 ## Código
-```
+```c++
 int LedOutput = 5;// Define as LED Output Pin 12 you can change this to 13 if you dont use pin 12 as output indicator
 int SensorPin = 15; // Define as Sensor Pin Input
 int Value;// Define as variable 

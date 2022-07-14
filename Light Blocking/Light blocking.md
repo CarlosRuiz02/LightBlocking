@@ -7,7 +7,7 @@ Este módulo fotointerruptor para Arduino (compatible con otros microcontrolador
 <li>1 x ESP-WROOM-32 Dev Module</li>
 <li>1 x Micro USB Cable</li>
 <li>1 x Protoboard</li>
-<li>4 x Cables hembra</li>
+<li>3 x Cables hembra</li>
 <li>2 x Cables macho</li>
 </ul>
 

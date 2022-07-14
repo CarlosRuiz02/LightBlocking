@@ -27,14 +27,17 @@ int LedOutput = 5;// Define as LED Output Pin 12 you can change this to 13 if yo
 int SensorPin = 12; // Define as Sensor Pin Input
 int Value;// Define as variable 
 void setup(){
-pinMode(LedOutput,OUTPUT);//Set as LedOutput
-pinMode(SensorPin,INPUT);//Set as photo interrupter sensor output interface
+    Serial.Begin(115200);
+    pinMode(LedOutput,OUTPUT);//Set as LedOutput
+    pinMode(SensorPin,INPUT);//Set as photo interrupter sensor output interface
 }
 void loop(){
-Value=digitalRead(SensorPin);// Set as sensor read SensorPin 
-if(Value==HIGH){ //If value is equal to HIGH estate then turn LED output = high
-digitalWrite(LedOutput,HIGH); // Set LedOutPut to HIGH or ON
-}else{
-digitalWrite(LedOutput,LOW); // Set LedOutPut to LOW or OFF
+    Value=digitalRead(SensorPin);// Set as sensor read SensorPin 
+    if(Value==HIGH){ //If value is equal to HIGH estate then turn LED output = high
+        digitalWrite(LedOutput,HIGH); // Set LedOutPut to HIGH or ON
+        Serial.print("Sensor Bloqueado\n");
+    }else{
+        digitalWrite(LedOutput,LOW); // Set LedOutPut to LOW or OFF
+        Serial.print("Sin Obstrucción\n");
     }
 }

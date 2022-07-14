@@ -23,7 +23,7 @@ Este módulo fotointerruptor para Arduino (compatible con otros microcontrolador
 
 ## Código
 ```c++
-int LedOutput = 5;// Define as LED Output Pin 12 you can change this to 13 if you dont use pin 12 as output indicator
+int LedOutput = 5;// Define as LED Output Pin 5
 int SensorPin = 12; // Define as Sensor Pin Input
 int Value;// Define as variable 
 void setup(){
